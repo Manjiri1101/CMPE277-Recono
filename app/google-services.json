@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1047205358061",
+    "project_id": "textreco-a69a9",
+    "storage_bucket": "textreco-a69a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047205358061:android:3b5cedd96f00dfecd9dfe4",
+        "android_client_info": {
+          "package_name": "com.example.textreco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047205358061-g8fagevdfjq20dcuvuuvo8phrkh0jjf9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.textreco",
+            "certificate_hash": "2e9057d0b5b2e6c4001c17d40df27fe823558b0b"
+          }
+        },
+        {
+          "client_id": "1047205358061-no9n3rlv4bib9p7kckkl2snp4oktk9p8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9g96rK6d8tYwJu-s2s-8ERWvWY_0MxWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047205358061-no9n3rlv4bib9p7kckkl2snp4oktk9p8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
