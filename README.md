@@ -31,6 +31,7 @@ You need to have the user interface to send your data and display the results. Y
 https://firebase.google.com/docs/ml/android/recognize-text
 https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/text/FirebaseVisionTextRecognizer
 https://console.firebase.google.com/u/0/project/recono-e2425/ml/apis
+https://console.cloud.google.com/apis/api/vision.googleapis.com/overview?project=textreco-a69a9
 
 ### Use case:
 * Can be used for scanning the documents.
