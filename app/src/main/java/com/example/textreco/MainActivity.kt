@@ -51,8 +51,8 @@ class MainActivity : AppCompatActivity() {
     }
     private fun detectText(){
         val image = FirebaseVisionImage.fromBitmap(imageBitmap!!)
-        val detector = FirebaseVision.getInstance().onDeviceTextRecognizer
-        //val detector = FirebaseVision.getInstance().cloudTextRecognizer
+        //val detector = FirebaseVision.getInstance().onDeviceTextRecognizer
+        val detector = FirebaseVision.getInstance().cloudTextRecognizer
         detector.processImage(image).addOnSuccessListener ( OnSuccessListener<FirebaseVisionText>{
 
             firebaseVisionText ->
