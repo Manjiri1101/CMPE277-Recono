@@ -4,13 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:textAlignment="center"
     tools:context=".MainActivity">
+
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="308dp"
+        android:layout_height="38dp"
+        android:layout_above="@+id/iv"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="1dp"
         android:text="Welcome to text recognition App!"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -18,14 +33,15 @@
 
     <ImageView
         android:id="@+id/iv"
-        android:layout_width="316dp"
-        android:layout_height="346dp"
+        android:layout_width="wrap_content"
+        android:layout_height="204dp"
+        android:layout_above="@+id/txtView"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="47dp"
-        android:layout_marginEnd="47dp"
-        android:layout_marginBottom="297dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="37dp"
+        android:background="#6BDBB0EA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -36,30 +52,45 @@
 
     <Button
         android:id="@+id/snapBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="303dp"
-        android:layout_marginBottom="15dp"
-        android:text="Photo" />
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="207dp"
+        android:layout_marginBottom="112dp"
+        android:text="Photo"
+        android:textSize="16sp"
+        app:strokeColor="#ff0000" />
 
     <Button
         android:id="@+id/detectBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/snapBtn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
 
-        android:text="Detect" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="207dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="112dp"
+        android:text="Detect"
+        android:textSize="18sp"
+        app:strokeColor="#FF0000" />
 
     <TextView
         android:id="@+id/txtView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="282dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="104dp"
-        android:text="Output here" />
+        android:layout_marginStart="66dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="190dp"
+        android:text="Output here"
+        android:textAlignment="center"
+        android:textSize="24sp" />
 
 </RelativeLayout>
