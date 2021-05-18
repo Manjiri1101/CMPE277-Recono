@@ -35,9 +35,10 @@ https://console.firebase.google.com/u/0/project/recono-e2425/ml/apis
 App contains two pages (for Assignment 2). One is splash page, which has a logo and welcome screen. Second is main activity, where we have two button, one to take picture other one to detect the text. Output will be shown on text box.
 
 #### 1) Splash Page
+<img src="Output/1.jpeg" >
 
 #### 2) Main Activity
-
+<img src="Output/2.jpeg"
 
 
 ### Testing Cases:
@@ -47,11 +48,11 @@ Please see the outputs for different test scenarios:
 
 <p align="center">
   <img src="Output/3.jpeg" width="350" title="Output 1">
-  <img src="Output/1.jpeg" width="350" title="Output 2">
-  <img src="Output/2.jpeg" width="350" title="Sample Image">
+  <img src="Output/4.jpeg" width="350" title="Output 2">
+  <img src="Output/5.jpeg" width="350" title="Output 3">
 </p>
 
-### 
+### Video Link for Assignment 2 
 
 ### Application is work in progress. Developing it for Final project.
 
