@@ -32,14 +32,13 @@ https://firebase.google.com/docs/ml/android/recognize-text
 https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/text/FirebaseVisionTextRecognizer
 https://console.firebase.google.com/u/0/project/recono-e2425/ml/apis
 
-### UI:
-App contains two pages (for Assignment 2). One is splash page, which has a logo and welcome screen. Second is main activity, where we have two button, one to take picture other one to detect the text. Output will be shown on text box.
-
 ### Use case:
 * Can be used for scanning the documents.
 * Capturing the credit card information
 * Translation
 
+### UI:
+App contains two pages (for Assignment 2). One is splash page, which has a logo and welcome screen. Second is main activity, where we have two button, one to take picture other one to detect the text. Output will be shown on text box.
 
 #### 1) Splash Page
 <img src="Output/1.jpeg" width="350">
