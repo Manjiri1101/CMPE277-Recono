@@ -12,11 +12,17 @@ You need to have the user interface to send your data and display the results. Y
 * Kotlin Language for programming
 * Text recognition library by Google Cloud - Firebase ML API's
 
-
 ### Features:
 * Clicking Image
 * After taking image, my app will detect the text by clicking "Detect button"
 * Output will be shown on text view. 
+
+### Working :
+
+### Resources:
+
+https://firebase.google.com/docs/ml/android/recognize-text
+https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/text/FirebaseVisionTextRecognizer
 
 ### Testing Cases:
 
