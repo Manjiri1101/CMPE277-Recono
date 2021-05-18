@@ -58,7 +58,7 @@ Please see the outputs for different test scenarios:
   <img src="Output/5.jpeg" width="350" title="Output 3">
 </p>
 
-### Video Link for Assignment 2 
+### Video Link for Assignment 2 - https://youtu.be/NupNvB7zZq4
 
 ### Application is work in progress. Developing it for Final project.
 
