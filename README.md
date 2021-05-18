@@ -5,9 +5,9 @@ Submission for - Manjiri Kadam
 * Topic9 iOS/Android App: interact with Cloud AI services for any of the following features: speech recognition, image segmentation, object detection, gesture/keypoint recognition, recommendation, or natural language processing (chatbot). 
 You need to have the user interface to send your data and display the results. You need to show multiple testing cases for your selected Cloud AI services.
 
-### I chose topic 9, based on Firebase Google ML kit I have developed the text recognition app. We canclick photo and, the application will detect the script which is written on the image.
+#### I chose topic 9, based on Firebase Google ML kit I have developed the text recognition app. We canclick photo and, the application will detect the script which is written on the image.
 
-### Technologies used
+### Technologies used :
 * Android Studio as IDE
 * Kotlin Language for programming
 * Text recognition library by Google Cloud - Firebase ML API's
@@ -26,7 +26,7 @@ https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision
 
 ### Testing Cases:
 
-1) Front Page:
+Please see the outputs for different test scenarios:
 
 
 <p align="center">
