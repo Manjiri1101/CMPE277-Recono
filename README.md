@@ -29,6 +29,10 @@ https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision
 1) Front Page:
 
 ![](Output/1.jpeg)
+<p align="center">
+  <img src="Output/1.jpeg" width="350" title="hover text">
+  <img src="Output/2.jpeg" width="350" alt="accessibility text">
+</p>
 
 ### 
 
