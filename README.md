@@ -26,6 +26,9 @@ https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision
 
 ### Testing Cases:
 
+1) Front Page:
+
+![](Output/1.jpeg)
 
 ### 
 
