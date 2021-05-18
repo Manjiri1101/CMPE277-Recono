@@ -22,6 +22,7 @@ You need to have the user interface to send your data and display the results. Y
 ### Working :
 * With ML kit one can recognize the text from the image, with the cloud based API's we can extract text from image of document. There are two type of Firebase ML kit available 1) On-device 2) Cloud. I chose to use Cloud API.
 * This ML kit is the core of my application, here with the help of the camera and internet, can use prediction models by Google to extract the text.
+* I followed the instructions from - https://firebase.google.com/docs/android/setup?authuser=0
 
 
 
