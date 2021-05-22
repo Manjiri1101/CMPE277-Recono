@@ -1,6 +1,8 @@
 package com.example.textreco
 
 import android.app.Activity
+import android.app.SearchManager
+import android.widget.EditText
 import android.content.Intent
 import android.graphics.Bitmap
 import androidx.appcompat.app.AppCompatActivity
@@ -19,7 +21,10 @@ import com.google.firebase.ml.vision.text.FirebaseVisionText
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
     private var imageBitmap: Bitmap ?= null
+    lateinit var searchTextView: EditText
+    lateinit var searchBtn: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -29,6 +34,18 @@ class MainActivity : AppCompatActivity() {
         detectBtn.setOnClickListener(View.OnClickListener {
             detectText()
         })
+        //searchTextView = findViewById(R.id.searchTextView)
+        searchBtn = findViewById(R.id.searchBtn)
+        searchBtn.setOnClickListener {
+            val intent2 = Intent(Intent.ACTION_WEB_SEARCH)
+            //val term = searchTextView.text.toString()
+            val term = txtView.text.toString()
+            intent2.putExtra(SearchManager.QUERY, term)
+            startActivity(intent2)
+        }
+//        searchBtn.setOnClickListener{
+//            searchText()
+//        }
 
 
     }
@@ -69,9 +86,19 @@ class MainActivity : AppCompatActivity() {
             return
         }
         for (block in text.textBlocks){
-            val txt = block.text
-            txtView!!.textSize=16f
-            txtView!!.setText(txt)
+        //    val txt = block.text
+            for (line in block.lines) {
+                //val lineText = line.text
+                for (element in line.elements) {
+                    val elementText = element.text
+                    txtView!!.textSize=16f
+                    // txtView!!.setText(txt)
+                    txtView!!.setText(elementText)
+                }
+            }
+//            txtView!!.textSize=16f
+//           // txtView!!.setText(txt)
+//            txtView!!.setText(elementText)
         }
     }
 
@@ -83,38 +110,12 @@ class MainActivity : AppCompatActivity() {
         ).show()
     }
 
+//    private fun searchText(){
+//        val searchIntent = Intent(Intent.ACTION_WEB_SEARCH)
+//        val term = editText.text.toString()
+//        searchIntent.putExtra(SearchManager.QUERY,term)
+//        startActivity(searchIntent)
+//    }
 
 }
 
-//    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-//        super.onActivityResult(requestCode, resultCode, data)
-//        if(requestCode==123){
-//            if(resultCode == Activity.RESULT_OK){
-//                var photo = data.extras.get("data") as Bitmap
-//                //iv.setImageBitmap(photo)
-//                textRec(photo)
-//            }
-//        }
-//    }
-//
-//    private fun textRec(photo: Bitmap) {
-//
-//    }
-//}
-//https://stackoverflow.com/questions/3320115/android-onclicklistener-identify-a-button
-//        val snapBtn1 = findViewById< Button>(R.id.snapBtn)
-//        snapBtn1.setOnClickListener {
-//            var moveToWorkExp = Intent(applicationContext, WorkExpActivity2::class.java)
-//            startActivity(moveToWorkExp)
-//        }
-//        val detectBtn1 = findViewById<Button>(R.id.detectBtn)
-//        detectBtn.setOnClickListener {
-//            var moveToWorkExp = Intent(applicationContext, WorkExpActivity2::class.java)
-//            startActivity(moveToWorkExp)
-//        }
-
-//        val imageView = findViewById<>(R.id.iv)
-//        imageView.setOnClickListener{
-//            var iv = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
-//            //startActivityForResult(i, requestCode:123)
-//        }
