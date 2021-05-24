@@ -100,7 +100,9 @@ Please see the below screenshots for the UI:
   <img src="Output/10.jpeg" width="250" title="Text Detection">
 
  <p/>
-### Video Link for demo of Project -[Video](https://www.youtube.com/watch?v=_sk298ebXUs)
+
+
+### Video Link for Assignment 2 - [Video](https://www.youtube.com/watch?v=_sk298ebXUs)
 
 ### Resources
 * https://firebase.google.com/docs/ml-kit/android/recognize-text
