@@ -83,7 +83,7 @@ Submission for - Manjiri Kadam
 ### UI:
 This application has 4 activities, one is Splash page, one is Welcome Activity, Object Detection Activity and Text Recognition Activity.
 Please see the below screenshots for the UI:
-<p align="center">
+
   1) Splash Page 
   <br />
   <img src="Output/13.jpeg" width="350" title="Splash Page">
@@ -103,5 +103,5 @@ Please see the below screenshots for the UI:
   <br />
   <img src="Output/10.jpeg" width="350" title="Text Detection">
   
-</p>
+
 
