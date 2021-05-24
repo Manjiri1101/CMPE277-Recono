@@ -88,18 +88,18 @@ class MainActivity : AppCompatActivity() {
             return
         }
         for (block in text.textBlocks){
-        //    val txt = block.text
-            for (line in block.lines) {
-                //val lineText = line.text
-                for (element in line.elements) {
-                    val elementText = element.text
-                    txtView!!.textSize=16f
-                    // txtView!!.setText(txt)
-                    txtView!!.setText(elementText)
-                }
-            }
-//            txtView!!.textSize=16f
-//           // txtView!!.setText(txt)
+            val txt = block.text
+//            for (line in block.lines) {
+//                //val lineText = line.text
+//                for (element in line.elements) {
+//                    val elementText = element.text
+//                    txtView!!.textSize=16f
+//                    // txtView!!.setText(txt)
+//                    txtView!!.setText(elementText)o
+//                }
+//            }
+            txtView!!.textSize=16f
+            txtView!!.setText(txt)
 //            txtView!!.setText(elementText)
         }
     }
