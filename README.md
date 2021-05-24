@@ -86,7 +86,7 @@ Please see the outputs for different test scenarios:
 ### UI:
 This application has 4 activities, one is Splash page, one is Welcome Activity, Object Detection Activity and Text Recognition Activity.
 Please see the below screenshots for the UI:
-<p align="center">
+
   <img src="Output/13.jpeg" width="250" title="Splash Page">
   <br />
   <img src="Output/8.jpeg" width="250" title="Welcome Page">
@@ -99,7 +99,7 @@ Please see the below screenshots for the UI:
   <br />
   <img src="Output/10.jpeg" width="250" title="Text Detection">
   <br />
- <p />
+ 
 ### Video Link for demo of Project -
 
 ### Resources
