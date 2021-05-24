@@ -84,17 +84,23 @@ Submission for - Manjiri Kadam
 This application has 4 activities, one is Splash page, one is Welcome Activity, Object Detection Activity and Text Recognition Activity.
 Please see the below screenshots for the UI:
 <p align="center">
-  1) Splash Page
+  1) Splash Page 
+  <br />
   <img src="Output/13.jpeg" width="350" title="Splash Page">
   2) Welcome Page
+  <br />
   <img src="Output/8.jpeg" width="350" title="Welcome Page">
   3) App Icon
+  <br />
   <img src="Output/12.jpeg" width="350" title="Logo">
   4) Output of Object Detection
+  <br />
   <img src="Output/9.jpeg" width="350" title="Object Detection">
   5) After clicking on search button
+  <br />
   <img src="Output/11.jpeg" width="350" title="Search for Object">
   6) Text Detection
+  <br />
   <img src="Output/10.jpeg" width="350" title="Text Detection">
   
 </p>
