@@ -62,8 +62,7 @@ Please see the outputs for different test scenarios:
 
 ### Application is work in progress. Developing it for Final project.
 
-# Final Project :
-# App Name: Recono
+# Final Project - App Name: Recono
 ### Prof. Kaikai Liu
 Submission for - Manjiri Kadam
 ### Objective of app-
@@ -91,5 +90,11 @@ Please see the below screenshots for the UI:
   <img src="Output/11.jpeg" width="350" title="Search for Object">
   <img src="Output/10.jpeg" width="350" title="Text Detection">
  <p />
+### Video Link for demo of Project -
 
+### Resources
+* https://firebase.google.com/docs/ml-kit/android/recognize-text
+* https://www.tensorflow.org/lite/examples/image_classification/overview
+
+Thank you.
 
