@@ -87,12 +87,12 @@ Please see the outputs for different test scenarios:
 This application has 4 activities, one is Splash page, one is Welcome Activity, Object Detection Activity and Text Recognition Activity.
 Please see the below screenshots for the UI:
 <p align="center">
-  <img src="Output/13.jpeg" width="350" title="Splash Page">
-  <img src="Output/8.jpeg" width="350" title="Welcome Page">
-  <img src="Output/12.jpeg" width="350" title="Logo">
-  <img src="Output/9.jpeg" width="350" title="Object Detection">
-  <img src="Output/11.jpeg" width="350" title="Search for Object">
-  <img src="Output/10.jpeg" width="350" title="Text Detection">
+  <img src="Output/13.jpeg" width="150" title="Splash Page">
+  <img src="Output/8.jpeg" width="150" title="Welcome Page">
+  <img src="Output/12.jpeg" width="150" title="Logo">
+  <img src="Output/9.jpeg" width="150" title="Object Detection">
+  <img src="Output/11.jpeg" width="150" title="Search for Object">
+  <img src="Output/10.jpeg" width="150" title="Text Detection">
  <p />
 ### Video Link for demo of Project -
 
