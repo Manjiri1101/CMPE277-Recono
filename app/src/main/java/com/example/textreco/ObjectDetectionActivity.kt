@@ -1,5 +1,6 @@
 package com.example.textreco
 
+import android.app.SearchManager
 import android.content.Intent
 import android.graphics.Bitmap
 import android.net.Uri
@@ -11,6 +12,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import com.example.textreco.ml.MobilenetV110224Quant
+import kotlinx.android.synthetic.main.activity_main.*
 import org.tensorflow.lite.DataType
 import org.tensorflow.lite.support.image.TensorImage
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
@@ -19,10 +21,13 @@ import java.net.URI
 class ObjectDetectionActivity : AppCompatActivity() {
     lateinit var bitmap: Bitmap
     lateinit var imgView: ImageView
+    lateinit var searchObjBtn: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_object_detection)
-
+        supportActionBar?.setTitle("ObjectReco")
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setIcon(R.drawable.ic_baseline_search_24)
         imgView = findViewById(R.id.imageView)
         val fileName = "label.txt"
         val inputString = application.assets.open(fileName).bufferedReader().use{it.readText()}
@@ -36,6 +41,16 @@ class ObjectDetectionActivity : AppCompatActivity() {
             startActivityForResult(intent,100)
 
         })
+// Search on google code
+        searchObjBtn = findViewById(R.id.searchObjBtn)
+        searchObjBtn.setOnClickListener {
+            val intent3 = Intent(Intent.ACTION_WEB_SEARCH)
+            //val term = searchTextView.text.toString()
+            val term = tv.text.toString()
+            intent3.putExtra(SearchManager.QUERY, term)
+            startActivity(intent3)
+        }
+
         var detect : Button =findViewById(R.id.objDetectImageBtn)
         detect.setOnClickListener(View.OnClickListener {
             var resized : Bitmap = Bitmap.createScaledBitmap(bitmap, 224, 224, true)
@@ -75,5 +90,10 @@ class ObjectDetectionActivity : AppCompatActivity() {
             }
         }
         return ind
+    }
+    // To navigate back to home page
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 }

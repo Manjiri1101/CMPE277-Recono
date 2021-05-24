@@ -9,9 +9,9 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="157dp"
-        android:layout_height="111dp"
-        android:text="Welcom to Object detection Page"
+        android:layout_width="259dp"
+        android:layout_height="67dp"
+        android:text="Welcome to Object detection Page"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -23,8 +23,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="340dp"
-        android:layout_height="240dp"
+        android:layout_width="326dp"
+        android:layout_height="292dp"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,27 +36,24 @@
 
     <Button
         android:id="@+id/objSelectBtn"
-        android:layout_width="139dp"
-        android:layout_height="54dp"
-        android:layout_marginEnd="140dp"
+        android:layout_width="127dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="68dp"
         android:text="Select"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/objDetectImageBtn"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.895" />
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/objDetectImageBtn"
-        android:layout_width="143dp"
-        android:layout_height="55dp"
-        android:layout_marginEnd="4dp"
-        android:text="Detect Object"
+        android:layout_width="140dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="64dp"
+        android:text="Detect"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.894" />
+        app:layout_constraintEnd_toStartOf="@+id/searchObjBtn" />
 
     <TextView
         android:id="@+id/objDetectTextView"
@@ -67,8 +64,20 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.552"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.719" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.301" />
+
+    <Button
+        android:id="@+id/searchObjBtn"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="49dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="64dp"
+        android:text=""
+        app:icon="@drawable/search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

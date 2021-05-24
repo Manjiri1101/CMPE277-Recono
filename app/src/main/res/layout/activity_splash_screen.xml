@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E7BCF3"
+    android:background="#f5f4f2"
     tools:context=".SplashScreenActivity">
 
     <ImageView
@@ -12,7 +12,7 @@
         android:layout_width="200dp"
         android:layout_height="202dp"
         android:background="#FFFFFF"
-        android:backgroundTint="#EFB3FF"
+        android:backgroundTint="#f5f4f2"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

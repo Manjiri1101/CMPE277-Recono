@@ -23,11 +23,13 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     private var imageBitmap: Bitmap ?= null
-    lateinit var searchTextView: EditText
+    //lateinit var searchTextView: EditText
     lateinit var searchBtn: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setIcon(R.drawable.ic_baseline_search_24)
         snapBtn.setOnClickListener(View.OnClickListener {
             dispatchPictureIntent()
         })
@@ -109,7 +111,11 @@ class MainActivity : AppCompatActivity() {
             Toast.LENGTH_SHORT
         ).show()
     }
-
+    // To navigate back to home page
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
+    }
 //    private fun searchText(){
 //        val searchIntent = Intent(Intent.ACTION_WEB_SEARCH)
 //        val term = editText.text.toString()

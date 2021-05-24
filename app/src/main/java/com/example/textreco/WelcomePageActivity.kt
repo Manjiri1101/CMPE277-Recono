@@ -9,6 +9,9 @@ class WelcomePageActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_welcome_page)
+        supportActionBar?.setTitle("RECONO")
+//        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+//        supportActionBar?.setIcon(R.drawable.search)
         txtDetectBtn.setOnClickListener{
             val intent1 = Intent(this, MainActivity::class.java)
             startActivity(intent1)

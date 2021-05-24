@@ -17,10 +17,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="63dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginBottom="89dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="3dp"
         android:text="Welcome to text recognition App!"
         android:textAlignment="center"
         android:textSize="16sp"
@@ -53,66 +53,56 @@
     <Button
         android:id="@+id/snapBtn"
         android:layout_width="120dp"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="33dp"
-        android:layout_marginEnd="207dp"
-        android:layout_marginBottom="144dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="262dp"
+        android:layout_marginBottom="54dp"
         android:text="Photo"
         android:textSize="16sp"
         app:strokeColor="#ff0000" />
 
     <Button
         android:id="@+id/detectBtn"
-        android:layout_width="120dp"
-        android:layout_height="50dp"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
 
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="211dp"
-        android:layout_marginEnd="29dp"
-        android:layout_marginBottom="145dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginBottom="56dp"
         android:text="Detect"
         android:textSize="18sp"
         app:strokeColor="#FF0000" />
 
     <TextView
         android:id="@+id/txtView"
-        android:layout_width="282dp"
-        android:layout_height="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="133dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="66dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginBottom="190dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="137dp"
         android:text="Output here"
         android:textAlignment="center"
         android:textSize="24sp" />
 
     <Button
         android:id="@+id/searchBtn"
-        android:layout_width="113dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="62dp"
-        android:text="Search" />
-
-    <EditText
-        android:id="@+id/searchTextView"
+        style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="201dp"
-        android:layout_marginBottom="59dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Search" />
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="54dp"
+        android:layout_toEndOf="@+id/detectBtn"
+        android:text=""
+        app:icon="@drawable/search" />
 
 </RelativeLayout>
