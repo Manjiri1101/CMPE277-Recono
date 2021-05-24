@@ -42,7 +42,7 @@ https://console.cloud.google.com/apis/api/vision.googleapis.com/overview?project
 App contains two pages (for Assignment 2). One is splash page, which has a logo and welcome screen. Second is main activity, where we have two button, one to take picture other one to detect the text. Output will be shown on text box.
 
 #### 1) Splash Page
-<img src="Output/1.jpeg" width="350">
+<img src="Output/1.jpeg" width="200">
 
 #### 2) Main Activity
 <img src="Output/2.jpeg" width="350">
@@ -53,9 +53,9 @@ App contains two pages (for Assignment 2). One is splash page, which has a logo 
 Please see the outputs for different test scenarios:
 
 <p align="center">
-  <img src="Output/3.jpeg" width="350" title="Output 1">
-  <img src="Output/4.jpeg" width="350" title="Output 2">
-  <img src="Output/5.jpeg" width="350" title="Output 3">
+  <img src="Output/3.jpeg" width="200" title="Output 1">
+  <img src="Output/4.jpeg" width="200" title="Output 2">
+  <img src="Output/5.jpeg" width="200" title="Output 3">
 </p>
 
 ### Video Link for Assignment 2 - [Video](https://youtu.be/NupNvB7zZq4)
@@ -87,12 +87,12 @@ Please see the outputs for different test scenarios:
 This application has 4 activities, one is Splash page, one is Welcome Activity, Object Detection Activity and Text Recognition Activity.
 Please see the below screenshots for the UI:
 <p align="center">
-  <img src="Output/13.jpeg" width="150" title="Splash Page">
-  <img src="Output/8.jpeg" width="150" title="Welcome Page">
-  <img src="Output/12.jpeg" width="150" title="Logo">
-  <img src="Output/9.jpeg" width="150" title="Object Detection">
-  <img src="Output/11.jpeg" width="150" title="Search for Object">
-  <img src="Output/10.jpeg" width="150" title="Text Detection">
+  <img src="Output/13.jpeg" width="250" title="Splash Page">
+  <img src="Output/8.jpeg" width="250" title="Welcome Page">
+  <img src="Output/12.jpeg" width="250" title="Logo">
+  <img src="Output/9.jpeg" width="250" title="Object Detection">
+  <img src="Output/11.jpeg" width="250" title="Search for Object">
+  <img src="Output/10.jpeg" width="250" title="Text Detection">
  <p />
 ### Video Link for demo of Project -
 
