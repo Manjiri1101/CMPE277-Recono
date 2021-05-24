@@ -64,4 +64,7 @@ Please see the outputs for different test scenarios:
 ### Application is work in progress. Developing it for Final project.
 
 # FInal Project :
+# App Name: Recono
+### Objective of app-
+#### This app will recognize text from images, and can detect the object on the images, not only that, it will also help us know more about the detected object / text by search feature (Kind of Google Lens)
 
