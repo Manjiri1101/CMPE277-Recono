@@ -52,7 +52,6 @@ App contains two pages (for Assignment 2). One is splash page, which has a logo 
 
 Please see the outputs for different test scenarios:
 
-
 <p align="center">
   <img src="Output/3.jpeg" width="350" title="Output 1">
   <img src="Output/4.jpeg" width="350" title="Output 2">
@@ -63,8 +62,30 @@ Please see the outputs for different test scenarios:
 
 ### Application is work in progress. Developing it for Final project.
 
-# FInal Project :
+# Final Project :
 # App Name: Recono
+### Prof. Kaikai Liu
+Submission for - Manjiri Kadam
 ### Objective of app-
-#### This app will recognize text from images, and can detect the object on the images, not only that, it will also help us know more about the detected object / text by search feature (Kind of Google Lens)
+#### This app will recognize text from images, and can detect the object on the images, not only that, it will also help us know more about the detected object / text by search feature (Kind of Google Lens). This app is extension of assignment 2
+
+### Technologies used :
+* Firebase ML kit for text recognition
+* TensorFlow Lite for object detection
+* Google search API
+
+### Features:
+* Click images, detect the text over image
+* Search meaning/reference over internet
+* Select images from gallery and try to detect the object using Tensorflow lite library.
+* Search similar reference/meaning of object over internet.
+
+### UI:
+This application has 4 activities, one is Splash page, one is Welcome Activity, Object Detection Activity and Text Recognition Activity.
+Please see the below screenshots for the UI:
+<p align="center">
+  <img src="Output/7.jpeg" width="350" title="Splash Page">
+  <img src="Output/8.jpeg" width="350" title="Welcome Page">
+  <img src="Output/12.jpeg" width="350" title="Logo">
+</p>
 
