@@ -92,7 +92,7 @@ Please see the below screenshots for the UI:
   <img src="Output/8.jpeg" width="250" title="Welcome Page">
 
   <img src="Output/12.jpeg" width="250" title="Logo">
-  <br />
+
   <img src="Output/9.jpeg" width="250" title="Object Detection">
 
   <img src="Output/11.jpeg" width="250" title="Search for Object">
