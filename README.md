@@ -105,6 +105,6 @@ Please see the below screenshots for the UI:
 ### Resources
 * https://firebase.google.com/docs/ml-kit/android/recognize-text
 * https://www.tensorflow.org/lite/examples/image_classification/overview
-
+* https://www.tensorflow.org/lite/guide/android
 Thank you.
 
