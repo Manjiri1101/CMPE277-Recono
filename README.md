@@ -45,7 +45,7 @@ App contains two pages (for Assignment 2). One is splash page, which has a logo 
 <img src="Output/1.jpeg" width="200">
 
 #### 2) Main Activity
-<img src="Output/2.jpeg" width="350">
+<img src="Output/2.jpeg" width="200">
 
 
 ### Testing Cases:
@@ -88,11 +88,17 @@ This application has 4 activities, one is Splash page, one is Welcome Activity, 
 Please see the below screenshots for the UI:
 <p align="center">
   <img src="Output/13.jpeg" width="250" title="Splash Page">
+  <br />
   <img src="Output/8.jpeg" width="250" title="Welcome Page">
+  <br />
   <img src="Output/12.jpeg" width="250" title="Logo">
+  <br />
   <img src="Output/9.jpeg" width="250" title="Object Detection">
+  <br />
   <img src="Output/11.jpeg" width="250" title="Search for Object">
+  <br />
   <img src="Output/10.jpeg" width="250" title="Text Detection">
+  <br />
  <p />
 ### Video Link for demo of Project -
 
