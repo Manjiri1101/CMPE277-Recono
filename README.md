@@ -1,5 +1,5 @@
 
-# Assignment 2 -CMPE 277 Smartphone - Cloud Connected App
+# Part A) Assignment 2 -CMPE 277 Smartphone - Cloud Connected App
 ## App Name : TextReco
 ### Prof. Kaikai Liu
 Submission for - Manjiri Kadam
@@ -62,9 +62,11 @@ Please see the outputs for different test scenarios:
 
 ### Application is work in progress. Developing it for Final project.
 
-# Final Project - App Name: Recono
+# Part B) Final Project- CMPE 277 Smartphone App Dev
+## App Name: Recono
 ### Prof. Kaikai Liu
-Submission for - Manjiri Kadam
+#### Submission for - Manjiri Kadam
+
 ### Objective of app-
 #### This app will recognize text from images, and can detect the object on the images, not only that, it will also help us know more about the detected object / text by search feature (Kind of Google Lens). This app is extension of assignment 2
 
@@ -72,6 +74,8 @@ Submission for - Manjiri Kadam
 * Firebase ML kit for text recognition
 * TensorFlow Lite for object detection
 * Google search API
+* Android Studio - IDE
+* Kotlin - Development Language
 
 ### Features:
 * Click images, detect the text over image
