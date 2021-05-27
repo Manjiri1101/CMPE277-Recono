@@ -30,14 +30,6 @@ You need to have the user interface to send your data and display the results. Y
 * I followed the instructions from - https://firebase.google.com/docs/android/setup?authuser=0
 
 
-
-### Resources:
-
-https://firebase.google.com/docs/ml/android/recognize-text
-https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/text/FirebaseVisionTextRecognizer
-https://console.firebase.google.com/u/0/project/recono-e2425/ml/apis
-https://console.cloud.google.com/apis/api/vision.googleapis.com/overview?project=textreco-a69a9
-
 ### Use case:
 * Can be used for scanning the documents.
 * Capturing the credit card information
@@ -119,7 +111,10 @@ Please see the below screenshots for the UI:
 ### Resources
 * https://firebase.google.com/docs/ml-kit/android/recognize-text
 * https://www.tensorflow.org/lite/examples/image_classification/overview
-* https://www.tensorflow.org/lite/guide/android
+* https://firebase.google.com/docs/ml/android/recognize-text
+* https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/text/FirebaseVisionTextRecognizer
+* https://console.firebase.google.com/u/0/project/recono-e2425/ml/apis
+* https://console.cloud.google.com/apis/api/vision.googleapis.com/overview?project=textreco-a69a9
 
 
 Thank you.
