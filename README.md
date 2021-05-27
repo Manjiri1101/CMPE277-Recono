@@ -108,6 +108,9 @@ Please see the below screenshots for the UI:
 
 ### PDF presentation for Project - [Presentation](https://github.com/Manjiri1101/TextReco/blob/master/Output/RECONO-%20presentation.pdf)
 
+### Project Plan : [Plan](https://github.com/Manjiri1101/TextReco/blob/master/Output/CMPE%20277%20Project%20plan%20for%20Manjiri.pdf)
+
+
 ### Resources
 * https://firebase.google.com/docs/ml-kit/android/recognize-text
 * https://www.tensorflow.org/lite/examples/image_classification/overview
