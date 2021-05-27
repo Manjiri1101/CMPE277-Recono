@@ -104,7 +104,9 @@ Please see the below screenshots for the UI:
  <p/>
 
 
-### Video Link for Assignment 2 - [Video](https://youtu.be/AKxnUwjwPUA)
+### Video Link for Final Project- [Video](https://youtu.be/AKxnUwjwPUA)
+
+### PDF presentation for Project - [Presentation](https://github.com/Manjiri1101/TextReco/blob/master/Output/RECONO-%20presentation.pdf)
 
 ### Resources
 * https://firebase.google.com/docs/ml-kit/android/recognize-text
