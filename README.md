@@ -79,7 +79,7 @@ This app has two parts, one for Text recognition, where we cna take picture and 
 
 ### Technologies used :
 * Firebase ML kit for text recognition
-* TensorFlow Lite for object detection
+* TensorFlow Lite image classification model for object recognition
 * Google search API
 * Android Studio - IDE
 * Kotlin - Development Language
