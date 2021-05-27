@@ -1,7 +1,12 @@
 
-# Part A) Assignment 2 -CMPE 277 Smartphone - Cloud Connected App
-## App Name : TextReco
-### Prof. Kaikai Liu
+# CMPE 277 -   Smartphone Application Development
+## Prof. Kaikai Liu
+
+# Project and assignment submission
+
+### Part A) Assignment 2 - Cloud Connected App
+### App Name : TextReco
+
 Submission for - Manjiri Kadam
 
 * Topic9 iOS/Android App: interact with Cloud AI services for any of the following features: speech recognition, image segmentation, object detection, gesture/keypoint recognition, recommendation, or natural language processing (chatbot). 
