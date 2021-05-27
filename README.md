@@ -2,7 +2,7 @@
 # CMPE 277 -   Smartphone Application Development
 ## Prof. Kaikai Liu
 
-# Project and assignment submission
+## Project and assignment submission
 
 ### Part A) Assignment 2 - Cloud Connected App
 ### App Name : TextReco
