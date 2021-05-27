@@ -91,13 +91,13 @@ Please see the below screenshots for the UI:
 
   <img src="Output/8.jpeg" width="250" title="Welcome Page">
 
-  <img src="Output/12.jpeg" width="250" title="Logo">
+  <img src="Outputa.jpeg" width="250" title="Logo">
 
-  <img src="Output/9.jpeg" width="250" title="Object Detection">
+  <img src="Output/b.jpeg" width="250" title="Object Detection">
 
   <img src="Output/11.jpeg" width="250" title="Search for Object">
 
-  <img src="Output/10.jpeg" width="250" title="Text Detection">
+  <img src="Output/d.jpeg" width="250" title="Text Detection">
 
  <p/>
 
