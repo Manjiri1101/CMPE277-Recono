@@ -93,7 +93,7 @@ Please see the below screenshots for the UI:
 
   <img src="Output/8.jpeg" width="250" title="Welcome Page">
 
-  <img src="Outputa.jpeg" width="250" title="Logo">
+  <img src="Output/a.jpeg" width="250" title="Logo">
 
   <img src="Output/b.jpeg" width="250" title="Object Detection">
 
