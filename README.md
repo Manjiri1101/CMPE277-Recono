@@ -59,30 +59,40 @@ Please see the outputs for different test scenarios:
 
 ### Application is work in progress. Developing it for Final project.
 
-# Part B) Final Project- CMPE 277 Smartphone App Dev
+# **Part B) Final Project- CMPE 277 Smartphone App Dev**
 ## App Name: Recono
 ### Prof. Kaikai Liu
-#### Submission for - Manjiri Kadam
+#### Submission for - Manjiri Kadam (Group 1)
 
 ### Objective of app-
 #### This app will recognize text from images, and can detect the object on the images, not only that, it will also help us know more about the detected object / text by search feature (Kind of Google Lens). This app is extension of assignment 2
 
 This app has two parts, one for Text recognition, where we cna take picture and can detect the text over the image. We can even find out the meaning/ search for the reference over internet. Other part is where I am using Image classification, and using the TensorFlow Lite model for it. In this part, we can select the picture, and the app will predict/ classify the image. And on basis of that we can have search results on the Google. 
 
-### Technologies used :
+
+
+### **Video Link for Final Project**- [Video](https://youtu.be/AKxnUwjwPUA)
+
+### **PDF presentation for Project** - [Presentation](https://github.com/Manjiri1101/TextReco/blob/master/Output/RECONO-%20presentation.pdf)
+
+### **Project Plan** : [Plan](https://github.com/Manjiri1101/TextReco/blob/master/Output/CMPE%20277%20Project%20plan%20for%20Manjiri.pdf)
+
+
+
+### **Technologies used **:
 * Firebase ML kit for text recognition
 * TensorFlow Lite image classification model for object recognition
 * Google search API
 * Android Studio - IDE
 * Kotlin - Development Language
 
-### Features:
+###** Features:**
 * Click images, detect the text over image
 * Search meaning/reference over internet
 * Select images from gallery and try to detect the object using Tensorflow lite library.
 * Search similar reference/meaning of object over internet.
 
-### UI:
+### **UI:**
 This application has 4 activities, one is Splash page, one is Welcome Activity, Object Detection Activity and Text Recognition Activity.
 Please see the below screenshots for the UI:
 <p>
@@ -100,15 +110,7 @@ Please see the below screenshots for the UI:
 
  <p/>
 
-
-### Video Link for Final Project- [Video](https://youtu.be/AKxnUwjwPUA)
-
-### PDF presentation for Project - [Presentation](https://github.com/Manjiri1101/TextReco/blob/master/Output/RECONO-%20presentation.pdf)
-
-### Project Plan : [Plan](https://github.com/Manjiri1101/TextReco/blob/master/Output/CMPE%20277%20Project%20plan%20for%20Manjiri.pdf)
-
-
-### Resources
+### **Resources**:
 * https://firebase.google.com/docs/ml-kit/android/recognize-text
 * https://www.tensorflow.org/lite/examples/image_classification/overview
 * https://firebase.google.com/docs/ml/android/recognize-text
@@ -117,5 +119,5 @@ Please see the below screenshots for the UI:
 * https://console.cloud.google.com/apis/api/vision.googleapis.com/overview?project=textreco-a69a9
 
 
-Thank you.
+**Thank you.**
 
