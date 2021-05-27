@@ -70,6 +70,8 @@ Please see the outputs for different test scenarios:
 ### Objective of app-
 #### This app will recognize text from images, and can detect the object on the images, not only that, it will also help us know more about the detected object / text by search feature (Kind of Google Lens). This app is extension of assignment 2
 
+This app has two parts, one for Text recognition, where we cna take picture and can detect the text over the image. We can even find out the meaning/ search for the reference over internet. Other part is where I am using Image classification, and using the TensorFlow Lite model for it. In this part, we can select the picture, and the app will predict/ classify the image. And on basis of that we can have search results on the Google. 
+
 ### Technologies used :
 * Firebase ML kit for text recognition
 * TensorFlow Lite for object detection
@@ -95,7 +97,7 @@ Please see the below screenshots for the UI:
 
   <img src="Output/b.jpeg" width="250" title="Object Detection">
 
-  <img src="Output/11.jpeg" width="250" title="Search for Object">
+  <img src="Output/e.jpeg" width="250" title="Search for Object">
 
   <img src="Output/d.jpeg" width="250" title="Text Detection">
 
@@ -108,5 +110,7 @@ Please see the below screenshots for the UI:
 * https://firebase.google.com/docs/ml-kit/android/recognize-text
 * https://www.tensorflow.org/lite/examples/image_classification/overview
 * https://www.tensorflow.org/lite/guide/android
+
+
 Thank you.
 
