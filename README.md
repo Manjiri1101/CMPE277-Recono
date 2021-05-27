@@ -102,7 +102,7 @@ Please see the below screenshots for the UI:
  <p/>
 
 
-### Video Link for Assignment 2 - [Video](https://www.youtube.com/watch?v=_sk298ebXUs)
+### Video Link for Assignment 2 - [Video](https://youtu.be/AKxnUwjwPUA)
 
 ### Resources
 * https://firebase.google.com/docs/ml-kit/android/recognize-text
