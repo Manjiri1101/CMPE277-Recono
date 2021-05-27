@@ -71,7 +71,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="179dp"
         android:layout_marginBottom="50dp"
-        android:text="Detect"
         android:textSize="18sp"
         app:strokeColor="#FF0000" />
 

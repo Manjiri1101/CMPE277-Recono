@@ -11,7 +11,7 @@
         android:id="@+id/textView3"
         android:layout_width="259dp"
         android:layout_height="67dp"
-        android:text="Welcome to Object detection Page"
+        android:text="Welcome to Object Classification Page"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold"
